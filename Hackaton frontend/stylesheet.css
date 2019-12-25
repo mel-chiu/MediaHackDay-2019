@@ -1,0 +1,76 @@
+body{
+  background-image: url('https://images.poms.omroep.nl/image/sx650/1302676.jpg');
+  
+
+  border-image-repeat: norepat;
+  
+
+  }
+  
+body:before {
+    content: "";
+    position: absolute;
+    background: url('https://images.poms.omroep.nl/image/sx650/1302676.jpg');
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */
+    height: 23%; width: 23%; /* Using Glen Maddern's trick /via @mente */
+
+    /* don't forget to use the prefixes you need */
+    transform: scale(5);
+    transform-origin: top left;
+    filter: blur(2px);
+}
+.nav-panel-left{
+    font-size: 18px;
+    margin: 0 20px 0 0;
+    padding: 35px 0 25px;
+}
+.nav-panel-right{
+    font-size: 18px;
+    margin: 0 10px 0 30px;
+    padding: 35px 0 0;
+}
+
+#npostart-logo{
+    margin: 0 20px 0 0;
+    height: 40px;
+    
+}
+
+a{
+    color: #ffffff
+}
+
+a :hover{
+    color: #FF6D00;
+}
+
+.content{
+    color: #ffffff;
+    margin:
+}
+
+.description{
+    height: 30%;
+    width: 80%;
+}
+
+.episode{
+    margin: auto 2px auto 100px;
+}
+
+.collum {
+    float: left;
+    width:50%;
+  }
+  
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.thumbnails {
+	height: 200px;
+	width: 350px;
+}
